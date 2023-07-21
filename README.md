@@ -7,7 +7,7 @@
 |-|-
 | Linux - ядро операционной системы, например Ubuntu построена на базе Linux. Пройти курс https://www.youtube.com/watch?list=PLg5SS_4L6LYuE4z-3BgLYGkZrs-cF4Tep и сделать все задания https://github.com/eabykov/devops-linux | Может устанавливать программы, знает основные команды и может их применять, что такое ядро linux, знает какие основные папки есть в `/`, отвечает на вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/linux и https://github.com/bregman-arie/devops-exercises#operating-system---self-assessment
 | Linux скрипты - простые сценарии, автоматизация рутинных задач. Задание: сделать скрипты для всех заданий https://github.com/eabykov/devops-linux и задания 2,5,9 в https://github.com/bregman-arie/devops-exercises/tree/master/topics/shell | Умеет создавать и использовать переменные, может применять условный оператор IF и использовать CASE, умеет использовать циклы, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/shell
-| Сети и сетевые технологии - как сервера (настольные ПК и тд) обьеденятются в общую сеть для обмена информацией, пример интернет, глобальная сеть обьеденяющая компьютеры по всему миру. Прочесть статью https://habr.com/ru/post/326574/ , https://ru.wikipedia.org/wiki/Маска_подсети и https://habr.com/ru/post/711578/ | Как подключиться по SSH и как роаботает SSH, что такое 'пакет', знает уровни TCP/IP, что такое DNS, что такое HTTP протокол и REST API, что такое IP и маска подсети, как на linux посмотреть сетевые интерфейсы, сниффинг трафика, что такое Nginx (как выглядит конфиг) и round-robin балансировка, вопросы https://github.com/bregman-arie/devops-exercises#network и https://github.com/bregman-arie/devops-exercises/tree/master/topics/dns
+| Сети и сетевые технологии - как сервера (настольные ПК и тд) обьеденятются в общую сеть для обмена информацией, пример интернет, глобальная сеть обьеденяющая компьютеры по всему миру. Прочесть статью https://habr.com/ru/post/326574/ , https://ru.wikipedia.org/wiki/Маска_подсети и https://habr.com/ru/post/711578/ , посмотреть про websocket https://youtu.be/19d4AXt3dSI | Как подключиться по SSH и как роаботает SSH, что такое 'пакет', знает уровни TCP/IP, что такое DNS, что такое HTTP протокол и REST API, что такое IP и маска подсети, как на linux посмотреть сетевые интерфейсы, сниффинг трафика, что такое Nginx (как выглядит конфиг) и round-robin балансировка, вопросы https://github.com/bregman-arie/devops-exercises#network и https://github.com/bregman-arie/devops-exercises/tree/master/topics/dns
 
 </details>
 
@@ -26,7 +26,7 @@
 
 | Цель и что нужно для изучения + Задания | Как поймем что цель достигнута?
 |-|-|
-| Docker - упаковка приложения в image в котором будет все что нужно для запуска. Пройти курс https://github.com/eabykov/devops-docker и посмотреть примеры compose https://github.com/docker/awesome-compose | Понимает зачем нужен docker, умеет создавать свой образ и пушить его в dockerhub, умеет запускать несколько образов вместе используя compose, вопросы https://habr.com/ru/company/southbridge/blog/528206/
+| Docker - упаковка приложения в image в котором будет все что нужно для запуска https://youtu.be/aZTL2zRmOnA . Пройти курс https://github.com/eabykov/devops-docker и посмотреть примеры compose https://github.com/docker/awesome-compose | Понимает зачем нужен docker, умеет создавать свой образ и пушить его в dockerhub, умеет запускать несколько образов вместе используя compose, вопросы https://habr.com/ru/company/southbridge/blog/528206/
 | Kubernetes - приводит состояние кластера из пункта А в пункт С, нужно только обьяснить с помощью yaml манифестов чего хотим в пункте С. Пройти курс https://learn.microsoft.com/ru-ru/training/modules/intro-to-kubernetes/ вместе с https://github.com/eabykov/kubernetes и поставить локально linkerd (посмотреть какие сервисы взаимодействуют, есть ли ошибки, сколько запросов в секунду) | Понимает зачем нужен Kubernetes, как устанавливать приложения через helm, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes
 
 Примерный порядок изучения технологии:
@@ -81,8 +81,8 @@
 
 | Цель и что нужно для изучения + Задания | Как поймем что цель достигнута?
 |-|-|
-| Ansible - упарвляет конфигурацией хостов по SSH. Пройти курс https://www.youtube.com/watch?list=PLg5SS_4L6LYufspdPupdynbMQTBnZd31N 1,6,10,12,14,15,19 не по названию | Понимает зачем нужен Ansible, что такое идемпотентность, что такое playbook, умеет писать свои роли, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/ansible
-| Terraform. Пройти курс https://www.youtube.com/watch?list=PLg5SS_4L6LYujWDTYb-Zbofdl44Jxb2l8 1,3,6,7,12,14,16,18 не по названию | Понимает зачем нужен Terraform, знает как создавать ресурсы (например виртуальную машину), где хранится состояние (информация) о том что сделал terraform, вопросы https://habr.com/ru/company/southbridge/blog/528206/
+| Ansible - упарвляет конфигурацией хостов по SSH https://youtu.be/23Zec3ORJOY . Пройти курс https://www.youtube.com/watch?list=PLg5SS_4L6LYufspdPupdynbMQTBnZd31N 1,6,10,12,14,15,19 не по названию | Понимает зачем нужен Ansible, что такое идемпотентность, что такое playbook, умеет писать свои роли, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/ansible
+| Terraform https://youtu.be/ph4iNA0Uuko . Пройти курс https://www.youtube.com/watch?list=PLg5SS_4L6LYujWDTYb-Zbofdl44Jxb2l8 1,3,6,7,12,14,16,18 не по названию | Понимает зачем нужен Terraform, знает как создавать ресурсы (например виртуальную машину), где хранится состояние (информация) о том что сделал terraform, вопросы https://habr.com/ru/company/southbridge/blog/528206/
 
 Генерация пары SSH ключей:
 ```sh
