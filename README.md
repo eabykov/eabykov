@@ -42,9 +42,7 @@
 |-|-|
 | Мониторинг - сбор исторических данных о нашей системе https://youtu.be/wDan20_WyNg использовать пример https://github.com/ruanbekker/docker-monitoring-stack-gpnc , Linux серверах, показателей приложений и их логов, сетевых метрик, оповещение если что-то пошло не так. Prometheus + Grafana + любые экспортеры, ELK стек https://youtu.be/ZcC3BTChCY0?t=110 и https://github.com/docker/awesome-compose/tree/master/elasticsearch-logstash-kibana , Трейсинг https://youtu.be/7Dyf4AiUAcQ | Понимает как создавать алерты (оповещения), может настроить мониторинг Docker, linux host, в Kubernetes установить https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack , вопросы https://github.com/bregman-arie/devops-exercises#prometheus , https://github.com/bregman-arie/devops-exercises#monitoring и https://github.com/bregman-arie/devops-exercises#elastic
 
-Логгирование в Kubernetes
-
-![image](https://github.com/eabykov/eabykov/assets/44170496/9e4388f5-12ba-40fe-b7f5-ef80bf474122)
+Логгирование в Kubernetes: https://kubernetes.io/docs/concepts/cluster-administration/logging/
 
 Золотые сигналы: https://habr.com/ru/companies/southbridge/articles/688082/
 - Процент успешных запросов
