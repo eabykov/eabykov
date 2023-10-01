@@ -4,7 +4,12 @@
 - Из операционных систем советую поставить себе Ubuntu: https://ubuntu.com/desktop
    > Большинство серверов работают на linux и Ubuntu будет удобен в обычном пользовании и подготовке к работе
 - Из текстовых редакторов научиться открывать файлы и редактировать в `nano`, а также в `vim` (если удобно)
-- 
+- По терминалу вся информация будет в `Базовые знания Linux, сетей и bash скриптов`
+- По системе контроля версий git ниже в `Git система контроля версий и автоматизация с помощью GitLab CI/CD`
+- По контейнеризации изучать Docker, ниже в `Контейнеризация с помощью Docker и Kubernetes`
+- Насчет Облачных провайдеров, в России лучше использовать Yandex Cloud, SberCloud или VK Cloud
+- Сети изучать ниже в `Базовые знания Linux, сетей и bash скриптов`
+- Изучать Terraform и Ansible как IaC (инфраструктуру как код, ниже в `IaC - (Инфраструктура как код) создание серверов с помощью Terraform и настройка с помощью Ansible`)
 
 Полезные youtube каналы:
 - Канал с плейлистами по которому учились многие devops инженеры: https://www.youtube.com/@ADV-IT/playlists
@@ -20,7 +25,7 @@
 |-|-
 | Linux - ядро операционной системы, например Ubuntu построена на базе Linux. Пройти курс https://youtu.be/wdaHKwvNRuU?si=UnvTogPjiVOE5PEc и сделать все задания https://github.com/eabykov/devops-linux | Может устанавливать программы, знает основные команды и может их применять, что такое ядро linux, знает какие основные папки есть в `/`, отвечает на вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/linux и https://github.com/bregman-arie/devops-exercises#operating-system---self-assessment
 | Linux скрипты - простые сценарии, автоматизация рутинных задач. Задание: сделать скрипты для всех заданий https://github.com/eabykov/devops-linux и задания 2,5,9 в https://github.com/bregman-arie/devops-exercises/tree/master/topics/shell | Умеет создавать и использовать переменные, может применять условный оператор IF и использовать CASE, умеет использовать циклы, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/shell
-| Сети и сетевые технологии - как сервера (настольные ПК и тд) обьеденятются в общую сеть для обмена информацией, пример интернет, глобальная сеть обьеденяющая компьютеры по всему миру. Прочесть статью https://habr.com/ru/post/326574/ , https://ru.wikipedia.org/wiki/Маска_подсети и https://habr.com/ru/post/711578/ , посмотреть про websocket https://youtu.be/19d4AXt3dSI | Как подключиться по SSH и как роаботает SSH, что такое 'пакет', знает уровни TCP/IP, что такое DNS, что такое HTTP протокол и REST API, что такое IP и маска подсети, как на linux посмотреть сетевые интерфейсы, сниффинг трафика, что такое Nginx (как выглядит конфиг) и round-robin балансировка, вопросы https://github.com/bregman-arie/devops-exercises#network и https://github.com/bregman-arie/devops-exercises/tree/master/topics/dns
+| Сети и сетевые технологии - как сервера (настольные ПК и тд) обьеденятются в общую сеть для обмена информацией, пример интернет, глобальная сеть обьеденяющая компьютеры по всему миру. Прочесть статью https://habr.com/ru/post/326574/ , https://ru.wikipedia.org/wiki/Маска_подсети и https://habr.com/ru/post/711578/ , посмотреть про websocket https://youtu.be/19d4AXt3dSI | Как подключиться по SSH и как роаботает SSH, что такое 'пакет', уровни TCP/IP, что такое DNS, что такое HTTP/HTTPS протокол и REST API, что такое IP и маска подсети, как на linux посмотреть сетевые интерфейсы, сниффинг трафика, что такое Nginx (как выглядит конфиг) и round-robin балансировка, вопросы https://github.com/bregman-arie/devops-exercises#network и https://github.com/bregman-arie/devops-exercises/tree/master/topics/dns
 
 </details>
 
