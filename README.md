@@ -1,4 +1,11 @@
-Примерный порядок изучения технологий для DevOps: https://roadmap.sh/devops
+Порядок изучения технологий для DevOps: https://roadmap.sh/devops
+
+Полезные youtube каналы:
+- Канал с плейлистами по которому учились многие devops инженеры: https://www.youtube.com/@ADV-IT/playlists
+- Канал планых курсов Merion Academy на котором рассказывают про технологии из RoadMap выше простыми словами: https://www.youtube.com/watch?v=NtGN7Nz6I0c
+- Хороший канал по devops, все видео смотреть на скорости 1.25 (если не хотите заснуть): https://www.youtube.com/@pavlenkoat/playlists
+
+Ниже используем видео с этих каналов для ознаколмения с тенологиями:
 
 <details>
   <summary>Базовые знания Linux, сетей и bash скриптов</summary>
