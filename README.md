@@ -1,4 +1,6 @@
-Порядок изучения технологий для DevOps: https://roadmap.sh/devops
+Порядок изучения технологий для DevOps (под картинкой обьяснение на русском важных пунктов)
+
+![](https://github.com/kamranahmedse/developer-roadmap/blob/master/public/roadmaps/devops.png)
 
 1. Выучить основы bash и python/go (дополнительная информация ниже в `Базовые знания Linux, сетей и bash скриптов`)
 2. Из операционных систем советую поставить себе Ubuntu: https://ubuntu.com/desktop
