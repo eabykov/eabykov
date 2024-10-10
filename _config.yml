@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal
+logo: /MTT.png
+title: Курс обучения SRE
+description: Основные термины и принципы работы
+email: eabykov@internet.ru
+github_username: eabykov
+github:
+  is_project_page: false
+show_downloads: false
