@@ -100,4 +100,4 @@
   2. Делать резервные копии и репозиториев кода, и документации
 </details>
 
-Обновляемый перевод: https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/
+Перевод: https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/
