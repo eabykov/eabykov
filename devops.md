@@ -53,7 +53,7 @@
 | Цель и что нужно для изучения + Задания | Как поймем что цель достигнута?
 |-|-|
 | Docker - упаковка приложения в image в котором будет все что нужно для запуска https://youtu.be/aZTL2zRmOnA | Понимает зачем нужен docker, умеет создавать свой образ и пушить его в dockerhub, умеет запускать несколько образов вместе используя compose, вопросы https://habr.com/ru/company/southbridge/blog/528206/
-| Kubernetes - приводит состояние кластера из пункта А в пункт С, нужно только обьяснить с помощью yaml манифестов чего хотим в пункте С. Пройти курс https://learn.microsoft.com/ru-ru/training/modules/intro-to-kubernetes/ вместе с https://github.com/eabykov/kubernetes и поставить локально linkerd (посмотреть какие сервисы взаимодействуют, есть ли ошибки, сколько запросов в секунду) | Понимает зачем нужен Kubernetes, как устанавливать приложения через helm, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes
+| Kubernetes - приводит состояние кластера из пункта А в пункт С, нужно только обьяснить с помощью yaml манифестов чего хотим в пункте С. Пройти курс https://learn.microsoft.com/ru-ru/training/modules/intro-to-kubernetes/ вместе с https://github.com/eabykov/kubernetes , https://habr.com/ru/articles/777728/ и поставить локально istio (посмотреть какие сервисы взаимодействуют, есть ли ошибки, сколько запросов в секунду) | Понимает зачем нужен Kubernetes, как устанавливать приложения через helm, вопросы https://github.com/bregman-arie/devops-exercises/tree/master/topics/kubernetes
 
 Примерный порядок изучения технологии:
 - Docker: https://roadmap.sh/docker
