@@ -158,7 +158,8 @@ roles/                      # роли хранятся в папке 'roles'
 <details>
   <summary>Вопросы на собеседовании</summary>
 
-Хороший набор ответов: https://habr.com/ru/articles/775560/
+Примеры вопросов:
+- https://habr.com/ru/articles/775560/
 
 ### Linux
 
