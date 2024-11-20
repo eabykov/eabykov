@@ -1,4 +1,4 @@
-# План для DevOps переехал сюда: [`devops.md`](devops.md) и не будет обновляться.
+# План для DevOps переехал сюда: https://github.com/eabykov/devops-v2
 
 | Термин | Значение |
 |-|-|
